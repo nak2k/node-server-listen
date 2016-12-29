@@ -1,0 +1,31 @@
+{
+  "name": "server-listen",
+  "version": "0.0.1",
+  "description": "Util to listen",
+  "author": "Kengo Nakatsuka <kengo.nakatsuka@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/nak2k/node-server-listen/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-env": "^1.2.2",
+    "eslint": "^3.18.0"
+  },
+  "homepage": "https://github.com/nak2k/node-server-listen",
+  "keywords": [],
+  "license": "MIT",
+  "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nak2k/node-server-listen.git"
+  },
+  "scripts": {
+    "build": "npm run lint && babel -d lib/ src/",
+    "lint": "eslint src/"
+  },
+  "files": [
+    "README.md",
+    "lib/"
+  ]
+}
