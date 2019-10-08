@@ -7,9 +7,7 @@
     "url": "https://github.com/nak2k/node-server-listen/issues"
   },
   "dependencies": {},
-  "devDependencies": {
-    "eslint": "^4.0.0"
-  },
+  "devDependencies": {},
   "homepage": "https://github.com/nak2k/node-server-listen",
   "keywords": [],
   "license": "MIT",
@@ -19,7 +17,6 @@
     "url": "git+https://github.com/nak2k/node-server-listen.git"
   },
   "scripts": {
-    "lint": "eslint lib/"
   },
   "files": [
     "README.md",
